@@ -1,4 +1,4 @@
-version: 0.0
+version: 0.0 # 0.0이 아니면 오류
 os: linux
 files:
   - source: /
