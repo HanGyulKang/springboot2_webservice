@@ -34,7 +34,7 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
     secret_access_key: $AWS_SECRET_KEY # Travis repo sttings에 설정된 값
     bucket: gang6607-springboot2-build # S3 버킷
-    key: springboot2-webservice.zip # 빌드 파일을 압축해서 전달
+    key: gang6607-springboot2-webservice.zip # 빌드 파일을 압축해서 전달
     bundle_type: zip # 압축 확장자
     application: gang6607-springboot2-webservice # 웹 콘솔에서 등록한 CodeDeploy 애플리케이션
     deployment_group: gang6607-springboot2-webservice-group # 웹 콘솔에서 등록한 CodeDeploy 배포그룹
@@ -47,4 +47,4 @@ notifications:
     recipients:
       - gang6607@gmail.com
 
-# commit test 2020 11 23 21:56
+# commit test 2020 11 23 22:03
