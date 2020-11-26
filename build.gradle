@@ -36,3 +36,5 @@ dependencies {
     compile('org.mariadb.jdbc:mariadb-java-client')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
+
+// commit test 2020 11 27 00:06
